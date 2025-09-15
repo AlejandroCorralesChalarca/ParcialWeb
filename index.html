@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex por Tipo</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>Pokédex por Tipo ⚡🔥💧</h1>
+
+    <div class="formulario">
+        <input type="text" id="tipo" placeholder="Ejemplo: fire, water, grass">
+        <button onclick="buscarPorTipo()">Buscar</button>
+    </div>
+
+    <div id="resultado">
+        <h3>Pokémon encontrados:</h3>
+        <div id="lista"></div>
+    </div>
+</body>
+</html>
