@@ -76,7 +76,6 @@ button:hover {
 }
 /* Modal */
 .modal {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -85,7 +84,6 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
 }
 
 .modal-content {

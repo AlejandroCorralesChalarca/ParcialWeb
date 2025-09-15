@@ -60,7 +60,7 @@ const mostrarStats = (pokemon) => {
             <span class="cerrar">&times;</span>
             <h2>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
             <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
-            <p><b>Nivel Base:</b> ${pokemon.base_experience}</p>
+            <p><b>Exp Base:</b> ${pokemon.base_experience}</p>
             <h3>Stats:</h3>
             <ul>
                 ${pokemon.stats.map(stat => `<li><b>${stat.stat.name}:</b> ${stat.base_stat}</li>`).join("")}
